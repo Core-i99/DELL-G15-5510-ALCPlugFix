@@ -2,7 +2,9 @@
 ALCPlugFix configuration for DELL G15 5510
 
 Cetrain codecs need verb commands to be send when pluggin in headphones, and when waking up after sleep.
-Seen on this DELL G15 5510 with ALC 295 there will be only a crackling sound without sending those verb commands.
+Seen on this DELL G15 5510 with ALC 295 there will be only a crackling sound without sending those verb commands. 
+The config file for ALCPlugFix is included in this repostory.
+
 
 | Info          | Detail        | Comment |
 | ------------- | ------------- | ------- |
