@@ -17,7 +17,12 @@ The config file for ALCPlugFix is included in this repostory.
 | Verb Command 2 | 0x1b SET_PIN_WIDGET_CONTROL 0x20 | Wakes up "Headphone Mic Boost Volume", makes sure there comes sound out the headphones |
 | Verb Command 3 | 0x14 SET_PIN_WIDGET_CONTROL 0x40 | Wakes up ""Speaker Playback Switch" only needed after wake from sleep |
 
+
+ ## Usage
 To use [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift) you will need alcverbs=1 or alc-verbs added to be present under the HDEF device.
 
-Credits 
-[black-dragon74](https://github.com/black-dragon74) for ALCPlugFix-Swift
+## Credits
+### ALCPlugFix-Swift
+- [goodwin](https://github.com/goodwin) for original work on Obj-C based ALCPlugFix
+- [zen-zhen](https://github.com/zhen-zen) for direct kernelspace connection
+- [black-dragon74](https://github.com/black-dragon74) for writing and maintaing this software
