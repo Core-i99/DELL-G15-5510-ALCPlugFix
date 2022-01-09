@@ -21,6 +21,16 @@ The config file for ALCPlugFix is included in this repostory.
  ## Usage
 To use [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift) you will need alcverbs=1 or alc-verbs added to be present under the HDEF device.
 
+- Add alcverbs=1 bootarg or alc-verbs to the HDEF device
+- Download [AlcPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift/) from [releases](https://github.com/black-dragon74/ALCPlugFix-Swift/releases)
+- Unzip the file
+- Open terminal
+- cd ALCPugFix-Swift_directory 
+- ./install.sh
+- Select the [config file](https://github.com/TheHackGuy/DELL-G15-5510-ALCPlugFix/blob/main/DELL_G15_5510_ALC295.plist)
+- Allow ALCPlugFix in System Preferences > Security & Privacy > General
+- Give ALCPlugFix permissions System Preferences > Security & Privacy > Privacy > Full Disk Acces
+
 ## Credits
 ### ALCPlugFix-Swift
 - [goodwin](https://github.com/goodwin) for original work on Obj-C based ALCPlugFix
